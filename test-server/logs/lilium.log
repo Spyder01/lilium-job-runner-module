@@ -1,0 +1,14 @@
+{"level":"info","time":"2025-11-27T14:57:17+05:30","message":"Initializing modules..."}
+{"level":"info","time":"2025-11-27T14:57:17+05:30","message":"Mounting static files"}
+{"level":"info","time":"2025-11-27T14:57:17+05:30","message":"Mounted static files"}
+{"level":"info","time":"2025-11-27T14:57:17+05:30","message":"Starting all the modules..."}
+{"level":"info","time":"2025-11-27T14:57:17+05:30","message":"Starting modules..."}
+{"level":"info","time":"2025-11-27T14:57:17+05:30","message":"Started all the attached modules..."}
+{"level":"info","time":"2025-11-27T14:57:17+05:30","message":"Running onStart tasks..."}
+{"level":"info","time":"2025-11-27T14:57:17+05:30","message":"Startup tasks complete."}
+{"level":"info","time":"2025-11-27T14:57:17+05:30","message":"Listening on :8080"}
+{"level":"info","time":"2025-11-27T14:57:20+05:30","message":"Shutting down server..."}
+{"level":"info","time":"2025-11-27T14:57:20+05:30","message":"Running onStop tasks..."}
+{"level":"info","time":"2025-11-27T14:57:20+05:30","message":"Stopping all the attached modules..."}
+{"level":"info","time":"2025-11-27T14:57:20+05:30","message":"Shutting down modules..."}
+{"level":"info","time":"2025-11-27T14:57:20+05:30","message":"Stopped all the attached modules..."}

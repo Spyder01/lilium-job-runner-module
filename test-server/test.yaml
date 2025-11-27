@@ -1,0 +1,56 @@
+name: "LiliumTestApp"
+
+server:
+  port: 8080
+
+  cors:
+    enabled: true
+    origins:
+      - "http://localhost:3000"
+      - "https://example.com"
+    allowedMetods:
+      - "GET"
+      - "POST"
+      - "PUT"
+      - "DELETE"
+    allowedHeaders:
+      - "Content-Type"
+      - "Authorization"
+    exposedHeaders:
+      - "X-Custom-Header"
+    allowCredentials: true
+    maxAge: 3600
+
+  static:
+    - route: "/"
+      directory: "./public"
+    - route: "/assets"
+      directory: "./assets"
+
+db:
+  type: "postgres"
+  host: "localhost"
+  port: "5432"
+  username: "testuser"
+  password: "testpassword"
+  dbName: "testdb"
+  migrations: "./migrations"
+  queries: "./queries"
+
+logger:
+  toFile: true
+  filePath: "./logs/lilium.log"
+  toStdout: true
+  prefix: "[LiliumTest]"
+  flags: 0
+  debugEnabled: true
+
+logRoutes: true
+
+jobs:
+  - name: "test-job"
+    interval: 5s 
+    repeat: true
+    description: "Testing background job"
+    retries: 2
+  
