@@ -4,6 +4,8 @@ github.com/go-chi/chi/v5 v5.2.3/go.mod h1:L2yAIGWB3H+phAw1NxKwWM+7eUH/lU8pOMm5hH
 github.com/go-chi/cors v1.2.2 h1:Jmey33TE+b+rB7fT8MUy1u0I4L+NARQlK6LhzKPSyQE=
 github.com/go-chi/cors v1.2.2/go.mod h1:sSbTewc+6wYHBBCW7ytsFSn836hqM7JxpglAy2Vzc58=
 github.com/godbus/dbus/v5 v5.0.4/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
+github.com/joho/godotenv v1.5.1 h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0=
+github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=
 github.com/mattn/go-colorable v0.1.13/go.mod h1:7S9/ev0klgBDR4GtXTXX8a3vIGJpMovkB8vQcUbaXHg=
 github.com/mattn/go-colorable v0.1.14 h1:9A9LHSqF/7dyVVX6g0U9cwm9pG3kP9gSzcuIPHPsaIE=
 github.com/mattn/go-colorable v0.1.14/go.mod h1:6LmQG8QLFO4G5z1gPvYEzlUgJ2wF+stgPZH1UqBm1s8=
@@ -39,6 +41,8 @@ github.com/spyder01/lilium-go v0.2.10 h1:JFvFz5JbgmKqhsEmkb4sPMc8yLfBz9yNIoQMCCK
 github.com/spyder01/lilium-go v0.2.10/go.mod h1:TxporEuaIqMJIYZSFxc+24FeQLpssLAXLhO+hhljGyo=
 github.com/spyder01/lilium-go v0.2.11 h1:pvg/oZER9Ti+EZL8goyq+u78jW7K2kkhOrgBMWGq13U=
 github.com/spyder01/lilium-go v0.2.11/go.mod h1:TxporEuaIqMJIYZSFxc+24FeQLpssLAXLhO+hhljGyo=
+github.com/spyder01/lilium-go v0.5.0 h1:Xko1yneEv4Tf0G9aQjiMOpv63DSRmhLJW3AvsKrLQKk=
+github.com/spyder01/lilium-go v0.5.0/go.mod h1:BxpuBt/eKgosN/OSKB17whdd0jb5UmMKENZNUpIEaqA=
 github.com/spyder01/lilium-job-runner-module v0.0.1 h1:gNirOkUZCZC0sM0xnUItEebrIxgpdL2pEvPnzQZmSKA=
 github.com/spyder01/lilium-job-runner-module v0.0.1/go.mod h1:CBGRGm6l4yBvgiOJrvbZwPYVMbgLU2QgDNulVYoZoHs=
 golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
